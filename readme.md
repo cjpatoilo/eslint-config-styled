@@ -1,5 +1,7 @@
 # eslint-config-styled
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/d8600d0317ef470285aaa93c4438e163)](https://www.codacy.com/app/cjpatoilo/eslint-config-styled?utm_source=github.com&utm_medium=referral&utm_content=cjpatoilo/eslint-config-styled&utm_campaign=badger)
+
 > ESLint shareable config for JavaScript Styled.
 
 
