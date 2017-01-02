@@ -1,0 +1,67 @@
+{
+	"name": "eslint-config-styled",
+	"version": "0.0.0",
+	"description": "ESLint shareable config for JavaScript Styled.",
+	"homepage": "https://github.com/cjpatoilo/eslint-config-styled",
+	"repository": "cjpatoilo/eslint-config-styled",
+	"license": "MIT",
+	"author": "CJ Patoilo <cjpatoilo@gmail.com>",
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"JavaScript Styled",
+		"check",
+		"checker",
+		"checker",
+		"code",
+		"code checker",
+		"code linter",
+		"code standards",
+		"code style",
+		"code style",
+		"enforce",
+		"eslint",
+		"eslintconfig",
+		"hint",
+		"jscs",
+		"jshint",
+		"jslint",
+		"lint",
+		"linter",
+		"quality",
+		"simple",
+		"standard",
+		"strict",
+		"style",
+		"styled",
+		"validate",
+		"verify"
+	],
+	"ignore": [
+		".appveyor.yml",
+		".editorconfig",
+		".github",
+		".gitignore",
+		".travis.yml"
+	],
+	"engines": {
+		"node": ">=4"
+	},
+	"dependencies": {
+	},
+	"devDependencies": {
+		"ava": "*",
+		"eslint": "^3.12.0",
+		"is-plain-obj": "^1.0.0",
+		"temp-write": "^2.1.0"
+	},
+	"peerDependencies": {
+		"eslint": ">=3.12.0"
+	},
+	"scripts": {
+		"test": "ava && eslint -c index.js .",
+		"precommit": "npm t",
+		"pretest": "npm i"
+	}
+}
