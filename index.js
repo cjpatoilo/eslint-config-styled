@@ -19,6 +19,7 @@ module.exports = {
 	],
 
 	globals: {
+		angular: true,
 		document: false,
 		ga: false,
 		navigator: false,

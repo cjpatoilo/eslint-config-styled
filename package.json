@@ -49,19 +49,22 @@
 		"node": ">=4"
 	},
 	"dependencies": {
-	},
-	"devDependencies": {
-		"ava": "*",
 		"eslint": "^3.12.0",
 		"is-plain-obj": "^1.0.0",
 		"temp-write": "^2.1.0"
+	},
+	"devDependencies": {
+		"ava": "^0.17.0",
+		"editorconfig-tools": "^0.1.1",
+		"eslint-config-styled": "^0.0.0",
+		"husky": "^0.12.0",
+		"nyc": "^10.0.0"
 	},
 	"peerDependencies": {
 		"eslint": ">=3.12.0"
 	},
 	"scripts": {
-		"test": "ava && eslint -c index.js .",
 		"precommit": "npm t",
-		"pretest": "npm i"
+		"test": "nyc ava && eslint src -c styled --ignore-path .gitignore && editorconfig-tools check ."
 	}
 }
