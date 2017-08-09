@@ -1,6 +1,6 @@
 {
 	"name": "eslint-config-styled",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "ESLint shareable config for JavaScript Styled.",
 	"homepage": "https://github.com/cjpatoilo/eslint-config-styled",
 	"repository": "cjpatoilo/eslint-config-styled",
